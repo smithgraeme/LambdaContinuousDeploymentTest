@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports.hello = async (event, context) => {
-  console.log("Hello from the serverless! Deployment worked.")
+  console.log("Hello from the serverless! Deployment worked!")
 
   console.log(JSON.stringify(event.queryStringParameters));
 
